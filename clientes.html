@@ -1,98 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck's BitFlow -  Clientes</title>
-    <link rel="icons" href="img/BitflowIcon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comentários - Duck's Bitflow</title>
+    <link rel="stylesheet" href="clientes.css">
 </head>
 <body>
 
-    <a href="home.html">Home</a>
-    <a href="sobre_projetos.html">Sobre Projetos</a>
-    <a href="orçamento.html">Orçamento</a>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="DucksLogo.png" alt="Logo">
+            <span>Duck's Bitflow</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre_projetos.html">Sobre Projetos</a></li>
+            <li><a href="orçamento.html">Orçamentos</a></li>
+        </ul>
+
+        <div class="botoes">
+            <a href="#" class="btn-outline">Cadastre-se</a>
+            <a href="#" class="btn-login">Login</a>
+        </div>
+    </nav>
+</header>
 
 
-    <div>
-        <h1>Oque nossos <span> clientes</span> dizem sobre nós?</h1>
-       
-        <h2> Depoimentos dos nossos clientes que confiaram em nosso trabalho</h2>
-    </div>
-     <section>
-     <div class="box-container">
+    <section class="container">
+        <h1 class="titulo">O que nossos <span>Clientes</span> dizem</h1>
+        <p class="subtitulo">Depoimentos reais de clientes satisfeitos que confiaram em nosso trabalho</p>
 
-            <div class="box">
+        <div class="grid">
 
-                <img src="img/comentario.png" alt="Comentario-cliente">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="aspas">❝</div>
+                <div class="stars">★★★★★</div>
+                <p>"A Duck's Bitflow transformou completamente nossa presença digital. O site ficou incrível e o suporte foi excepcional durante todo o processo."</p>
 
-                <p> "A Duck's Bitflow transformou completamente nossa presença digital. <br> O site ficou incrível e o suporte foi excepcional durante todo o processo. Superaram nossas expectativas!"</p>
-
-                <img src="img/mulher-cliente.png" alt="foto-cliente">
-
-                <h3> Marcela Lopes </h3>
-
-                <div class="estrelas">
-
-                    <img width="30" src="img/estrela.png" alt="">
-                    <img width="30" src="img/estrela.png" alt="">
-                    <img width="30" src="img/estrela.png" alt="">
-                    <img width="30" src="img/estrela.png" alt="">
-                    <img width="30" src="img/estrela.png" alt="">
-
-
-                </div>
-
-
-                <div class="box">
-
-                    <img src="img/comentario.png" alt="Comentario-cliente">
-    
-                    <p> "Profissionais extremamente competentes e criativos. Entregaram nosso e-commerce no prazo <br> e com uma qualidade impecável. <br>Aumentamos 150% nas vendas online!"</p>
-    
-                    <img src="img/homem-cliente2.png" alt="foto-cliente">
-    
-                    <h3> João Silva </h3>
-    
-                    <div class="estrelas">
-    
-                        <img width="30" src="img/estrela.png" alt="">
-                        <img width="30" src="img/estrela.png" alt="">
-                        <img width="30" src="img/estrela.png" alt="">
-                        <img width="30" src="img/estrela.png" alt="">
-                        <img width="30" src="img/estrela.png" alt="">
-    
-    
+                <div class="perfil">
+                    <img src="img/homem-cliente.png" alt="">
+                    <div>
+                        <h4>Carlos Silva</h4>
+                        <span>CEO - TechStart Solutions</span>
                     </div>
-                    <div class="box">
-
-                        <img src="img/comentario.png" alt="Comentario-cliente">
-        
-                        <p> "Trabalhar com a Duck's Bitflow foi uma experiência fantástica. <br> Eles entenderam exatamente nossa visão e criaram uma solução sob medida. Recomendo fortemente!"</p>
-        
-                        <img src="img/homem-cliente.png" alt="foto-cliente">
-        
-                        <h3> Rodrigo Araujo </h3>
-        
-                        <div class="estrelas">
-        
-                            <img width="30" src="img/estrela.png" alt="">
-                            <img width="30" src="img/estrela.png" alt="">
-                            <img width="30" src="img/estrela.png" alt="">
-                            <img width="30" src="img/estrela.png" alt="">
-                            <img width="30" src="img/estrela.png" alt="">
-        
-        
-                        </div>
-            
-
+                </div>
             </div>
 
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="aspas">❝</div>
+                <div class="stars">★★★★★</div>
+                <p>"Profissionais extremamente competentes e criativos. Entregaram nosso e-commerce no prazo e com uma qualidade impecável."</p>
+
+                <div class="perfil">
+                    <img src="img/mulher-cliente.png" alt="">
+                    <div>
+                        <h4>Marina Santos</h4>
+                        <span>Diretora de Marketing - CreativeHub</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="aspas">❝</div>
+                <div class="stars">★★★★★</div>
+                <p>"Trabalhar com a Duck's Bitflow foi uma experiência fantástica. Criaram uma solução sob medida e superaram nossas expectativas."</p>
+
+                <div class="perfil">
+                    <img src="img/homem-cliente2.png" alt="">
+                    <div>
+                        <h4>Roberto Oliveira</h4>
+                        <span>Fundador - InnovaTech</span>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
+        <!-- Estatísticas -->
+        <div class="stats">
+            <div class="stat-box">
+                <h2>50+</h2>
+                <p>Clientes Satisfeitos</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>100+</h2>
+                <p>Projetos Entregues</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>98%</h2>
+                <p>Satisfação</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>1</h2>
+                <p>Ano de Experiência</p>
+            </div>
+        </div>
+
     </section>
-
-
 
 </body>
 </html>

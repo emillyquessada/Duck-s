@@ -1,0 +1,214 @@
+/* Fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Títulos */
+.titulo {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.titulo span {
+    color: #ffc400;
+}
+
+.subtitulo {
+    margin-top: 5px;
+    color: #aaa;
+}
+
+/* Grid dos cards */
+.grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+    gap: 25px;
+}
+
+/* Estilo dos cards */
+.card {
+    background: #1b1b1b;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Aspas */
+.aspas {
+    font-size: 28px;
+    color: #ffc400;
+    margin-bottom: 10px;
+}
+
+/* Estrelas */
+.stars {
+    font-size: 18px;
+    color: #ffc400;
+    margin-bottom: 15px;
+}
+
+/* Texto */
+.card p {
+    font-size: 15px;
+    color: #ddd;
+}
+
+/* Perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.perfil img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.perfil h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.perfil span {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Estatísticas */
+.stats {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: #1b1b1b;
+    padding: 20px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stat-box h2 {
+    color: #ffc400;
+    font-size: 32px;
+    margin: 0;
+}
+
+.stat-box p {
+    margin: 5px 0 0;
+    color: #bbb;
+}
+
+
+/* Fundo da navegação */
+header {
+    background: #f2b544; /* Amarelo parecido com o da imagem */
+    padding: 15px 0;
+    width: 100%;
+}
+
+/* Barra de navegação */
+.navbar {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo + texto */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Links do meio */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    opacity: 0.6;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+/* Botão contornado */
+.btn-outline {
+    padding: 10px 25px;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #f2b544;
+}
+
+/* Botão Login preto */
+.btn-login {
+    padding: 10px 25px;
+    background: #000;
+    color: #f2b544;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    opacity: 0.7;
+}
