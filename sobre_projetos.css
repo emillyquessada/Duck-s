@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sobre_projetos, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffae00;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px #ffb516;
+}
